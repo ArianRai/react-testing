@@ -23,7 +23,6 @@ export function App() {
 
 	return (
 		<main>
-			<h1>Aiuda</h1>
 			{fact && <p>{fact}</p>}
 			{imgUrl && <img src={imgUrl} alt='gatito' />}
 		</main>
